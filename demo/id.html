@@ -80,6 +80,19 @@ button {
 
 <body>
 
+  <script type="module">
+  import Typebot from 'https://cdn.jsdelivr.net/npm/@typebot.io/js@0/dist/web.js'
+
+  Typebot.initBubble({
+    apiHost: "https://bot.aiwf.in",
+    theme: {
+      button: { backgroundColor: "rgba(124, 58, 237, 0.15)" },
+      chatWindow: { backgroundColor: "#0a0a0f" },
+    },
+  });
+</script>
+
+
 <!-- FORM -->
 <div class="container" id="formSection">
   <h2>Employee Form</h2>
